@@ -20,8 +20,6 @@ let received = document.getElementById("amount-received").value;
 
 let change = 100*(received - due);
 console.log(change);
-change = change.toFixed();
-console.log(change);
 dollars = ( change / dollar ) | 0;
 console.log(dollars, change);
 change = change % dollar;
