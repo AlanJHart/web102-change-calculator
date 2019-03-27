@@ -8,23 +8,29 @@
     <!-- Write your markup here -->
     <h1>Change Calculator</h1>
 
-    <label id="labelDue" for = "amount-due">Total Due</label>
-    <input id="amount-due" type="text" placeholder="$0000.00" />
+  
     <label id="labelPaid" for = "amount-recieved">Total PAID</label>
     <input id="amount-received" type="text" placeholder="$0000.00" />
+    <label id="labelDue" for = "amount-due">Total Due</label>
+    <input id="amount-due" type="text" placeholder="$0000.00" />
 
-    <h2>Refresh Browser after each customer!</h2>
-
-     <button onclick="handleClickEvent()" id="calculate-change" type="button" placeholder="Calculate Change" >Calculate Change</button>>
+    <button onclick="handleClickEvent()" id="calculate-change" type="button" placeholder="Calculate Change" >Calculate Change</button>
+    
+    <h3>CHANGE</h3>
 
     <div id="div1">
 
     </div>
    
+    <label id="labelDollars" for = "dollars-output">DOLLARS</label>
     <p id="dollars-output"></p>
+    <label id="labelQuarters" for = "quarters-output">QUARTERS</label>
     <p id="quarters-output"></p>
+    <label id="labelDimes" for = "dimes-output">DIMES</label>
     <p id="dimes-output"></p>
+    <label id="labelNickels" for = "nickels-output">NICKELS</label>
     <p id="nickels-output"></p>
+    <label id="labelPennies" for = "pennies-output">PENNIES</label>
     <p id="pennies-output"></p>
 
     <!-- Don't forget to add your <script> tag here -->
